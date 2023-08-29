@@ -1,0 +1,23 @@
+div{
+    border: 2px solid rgb(44, 43, 43);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.tipo1{
+    background-color: rgba(177, 177, 255, 0.795);
+    height: 30px;
+    padding-top: 15px;
+}
+
+.tipo2{ background-color: blanchedalmond;
+    padding-top: 20px;
+    margin-top: 5px;
+    padding-bottom:20px;
+    padding-left: 20px;           
+}
+ul{
+    list-style-type:none;
+}
