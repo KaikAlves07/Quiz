@@ -6,66 +6,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario</title>
-  <link rel="stylesheet" href="./estilos/style.css">
-
-  *<cript>
+  <link rel="stylesheet" href="./estilos//style.css">
+  
+  <script>
     nome = window.prompt("Digite seu nome:")
     window.alert("Bem vindo(a): " + nome)
     </script>
 
 </head>
 
-<body>
-
+<body class =bg >
   <h1 class=formulario>Qual o seu conhecimento sobre Harry Potter </h1>
   <form action="">
 
-    <div class="tipo1">
+    <div class="dadospessoais">
       Nome: <input type="text">
     </div>
-
-    <div class="tipo1">
+    <div class="dadospessoais">
       Email: <input type="email">
     </div>
 
-    <div class="tipo2">
-        Quem foi o culpado de fazer a cicatriz ao Harry:
+    <div class="perguntas">
+       <h2>Quem foi o culpado de fazer a cicatriz ao Harry:</h2> 
+       <img class="cicatriz" src="./estilos/cicatriz.jpg" alt="marca">
       <ul>
-        <li><input type="radio" name="transporte"> Lord Voldemort</li>
-        <li><input type="radio" name="transporte">Lucius Malfoy </li>
-        <li><input type="radio" name="transporte">Bellatrix Lestrange</li>
+        <input type="radio" name="Lord Voldemort">Lord Voldemort
+        <input type="radio" name="Lucius Malfoy">Lucius Malfoy
+        <input type="radio" name="Bellatrix Lestrange">Bellatrix Lestrange
       </ul>
     </div>
-    <div class="tipo2">
-      Harry julgava que não tinha dinheiro nenhum até ter ido ver a herança que os pais tinham deixado, qual era o nome do banco onde ele foi buscar o seu dinheiro:
+    <div class="perguntas">
+      <h2>Harry julgava que não tinha dinheiro nenhum até ter ido ver a herança que os pais tinham deixado, qual era o nome do banco onde ele foi buscar o seu dinheiro:</h2>
+      <img class="gringotts" src="./estilos/gringots.jpg" alt="banco">
       <ul>
-        <li><input type="radio" name="genero"> Hogwarts</li>
-        <li><input type="radio" name="genero"> Gringotts</li>
-        <li><input type="radio" name="genero"> Caldeirão Furado</li>
+        <input type="radio" name="Hogwarts"> Hogwarts
+        <input type="radio" name="Gringotts"> Gringotts
+        <input type="radio" name="Caldeirão Furado"> Caldeirão Furado
       </ul>
     </div>
-    <div class="tipo2">
-      Harry e Hagrid foram a um cofre buscar um saco pequeno e sujo, qual era o número do cofre:
+    <div class="perguntas">
+      <h2>Harry e Hagrid foram a um cofre buscar um saco pequeno e sujo, qual era o número do cofre:</h2>
+      <img class="pedra_roubo" src="./estilos/pedra_roubo.jpg" alt="saco_roubado">
       <ul>
-        <li><input type="radio" name="transporte"> 723</li>
-        <li><input type="radio" name="transporte"> 713</li>
-        <li><input type="radio" name="transporte" >703</li>
+       <input type="radio" name="723"> 723
+        <input type="radio" name="713"> 713
+        <input type="radio" name="703" >703
       </ul>
     </div>
-    <div class="tipo2">
-      Do que é que Voldemort se alimentava para não morrer:
+    <div class="perguntas">
+      <h2>Do que é que Voldemort se alimentava para não morrer:</h2>
+      <img class="voldemort" src="./estilos/voldemort.jpg" alt="voldemort_sangue">
       <ul>
-        <li><input type="radio" name="transporte">Sangue centauros </li>
-        <li><input type="radio" name="transporte">Sangue de unicórnio </li>
-        <li><input type="radio" name="transporte">Sangue gigantes </li>
-      </ul>
+        <input type="radio" name="Sangue de centauro">Sangue de centauro 
+        <input type="radio" name="Sangue de unicórnio ">Sangue de unicórnio 
+        <input type="radio" name="Sangue gigantes ">Sangue gigantes
     </div>
-    <div class="tipo2">
-      Quem é que disse a Harry como é que se ia para a plataforma nove e três quartos:
+    <div class="perguntas">
+      <h2>Quem é que disse a Harry como é que se ia para a plataforma nove e três quartos:</h2>
+      <img class="plataforma" src="./estilos/plataforma.jpg" alt="plataforma">
       <ul>
-        <li><input type="radio" name="transporte">Fred Weasley</li>
-        <li><input type="radio" name="transporte">Moly Weasley </li>
-        <li><input type="radio" name="transporte">Hagrid</li>
+        <input type="radio" name="Fred Weasley">Fred Weasley
+        <input type="radio" name="Moly Weasley">Moly Weasley 
+        <input type="radio" name="Hagrid">Hagrid
       </ul>
     </div>
   </form>

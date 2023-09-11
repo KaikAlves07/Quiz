@@ -1,4 +1,21 @@
-div{
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.cicatriz,.voldemort,.pedra_roubo,.gringotts,.voldemort,.plataforma{
+    width: 450px ;
+    height: 200px; 
+    border-radius: 3%;
+}
+
+.bg{
+    background-image: url(./hogwarts.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+div{   
     border: 2px solid rgb(44, 43, 43);
     width: 500px;
     margin-left: auto;
@@ -6,13 +23,13 @@ div{
     border-radius: 10px;
     padding-left: 20px;
 }
-.tipo1{
+.dadospessoais{
     background-color: rgba(177, 177, 255, 0.795);
     height: 30px;
     padding-top: 15px;
 }
 
-.tipo2{ background-color: blanchedalmond;
+.perguntas{ background-color: blanchedalmond;
     padding-top: 20px;
     margin-top: 5px;
     padding-bottom:20px;
