@@ -1,2 +1,2 @@
-# formulario
-Formulário criado com apenas HTML e CSS
+# Quiz
+Projeto de criar um Quiz com HTML e CSS
