@@ -8,11 +8,7 @@
   <title>Formulario</title>
   <link rel="stylesheet" href="./estilos//style.css">
   
-  <script>
-    nome = window.prompt("Digite seu nome:")
-    window.alert("Bem vindo(a): " + nome)
-    </script>
-
+  
 </head>
 
 <body class =bg >
@@ -30,48 +26,51 @@
        <h2>Quem foi o culpado de fazer a cicatriz ao Harry:</h2> 
        <img class="cicatriz" src="./estilos/cicatriz.jpg" alt="marca">
       <ul>
-        <input type="radio" name="Lord Voldemort">Lord Voldemort
-        <input type="radio" name="Lucius Malfoy">Lucius Malfoy
-        <input type="radio" name="Bellatrix Lestrange">Bellatrix Lestrange
+        <input id = "resposta1" type="radio" name="opcao" value="l"> Lord Voldemort
+        <input id = "resposta2" type="radio" name="opcao" value="l"> Lucius Malfoy
+        <input id = "resposta3" type="radio" name="opcao" value="l"> Bellatrix Lestrange
+        <button type="men" >enviar</button>
       </ul>
     </div>
     <div class="perguntas">
       <h2>Harry julgava que não tinha dinheiro nenhum até ter ido ver a herança que os pais tinham deixado, qual era o nome do banco onde ele foi buscar o seu dinheiro:</h2>
       <img class="gringotts" src="./estilos/gringots.jpg" alt="banco">
       <ul>
-        <input type="radio" name="Hogwarts"> Hogwarts
-        <input type="radio" name="Gringotts"> Gringotts
-        <input type="radio" name="Caldeirão Furado"> Caldeirão Furado
+        <input type="radio" name="opcao1" value="h"> Hogwarts
+        <input type="radio" name="opcao1" value="h"> Gringotts
+        <input type="radio" name="opcao1" value="h"> Caldeirão Furado
       </ul>
     </div>
     <div class="perguntas">
       <h2>Harry e Hagrid foram a um cofre buscar um saco pequeno e sujo, qual era o número do cofre:</h2>
       <img class="pedra_roubo" src="./estilos/pedra_roubo.jpg" alt="saco_roubado">
       <ul>
-       <input type="radio" name="723"> 723
-        <input type="radio" name="713"> 713
-        <input type="radio" name="703" >703
+       <input type="radio" name="opcao2" value ="n"> 723
+        <input type="radio" name="opcao2" value ="n"> 713
+        <input type="radio" name="opcao2" value ="n" > 703
       </ul>
     </div>
     <div class="perguntas">
       <h2>Do que é que Voldemort se alimentava para não morrer:</h2>
       <img class="voldemort" src="./estilos/voldemort.jpg" alt="voldemort_sangue">
       <ul>
-        <input type="radio" name="Sangue de centauro">Sangue de centauro 
-        <input type="radio" name="Sangue de unicórnio ">Sangue de unicórnio 
-        <input type="radio" name="Sangue gigantes ">Sangue gigantes
+        <input type="radio" name="opcao3" value="s"> Sangue de centauro 
+        <input type="radio" name="opcao3" value="s"> Sangue de unicórnio 
+        <input type="radio" name="opcao3" value="s"> Sangue gigantes
+      </ul> 
     </div>
     <div class="perguntas">
       <h2>Quem é que disse a Harry como é que se ia para a plataforma nove e três quartos:</h2>
       <img class="plataforma" src="./estilos/plataforma.jpg" alt="plataforma">
       <ul>
-        <input type="radio" name="Fred Weasley">Fred Weasley
-        <input type="radio" name="Moly Weasley">Moly Weasley 
-        <input type="radio" name="Hagrid">Hagrid
+        <input type="radio" name="opcao4" value="d">Fred Weasley
+        <input type="radio" name="opcao4" value="d">Moly Weasley 
+        <input type="radio" name="opcao4" value="d">Hagrid
       </ul>
     </div>
   </form>
 
+  <script src="./script.js"></script>
 </body>
 
 </html>
