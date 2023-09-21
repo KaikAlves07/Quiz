@@ -4,7 +4,7 @@ window.alert("Bem vindo(a): " + nome)
 // Função para verificar a resposta
 function verificarResposta() {
     // Obtém o valor selecionado
-    var respostaSelecionada = document.querySelector('input[name="opcao"]:checked');
+    let respostaSelecionada = document.querySelector('input[name="opcao"]:checked');
     
     // Verifica se uma opção foi selecionada
     if (respostaSelecionada) {
@@ -28,7 +28,7 @@ document.getElementById("verificarResposta").addEventListener("click", verificar
 
 function verificarResposta_a() {
    
-    var respostaSelecionada_a = document.querySelector('input[name="opcao1"]:checked');
+    let respostaSelecionada_a = document.querySelector('input[name="opcao1"]:checked');
     
     
     if (respostaSelecionada_a) {
