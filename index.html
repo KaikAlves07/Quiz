@@ -8,14 +8,10 @@
   <title>Formulario</title>
   <link rel="stylesheet" href="./estilos//style.css">
   
-  <script>
-    nome = window.prompt("Digite seu nome:")
-    window.alert("Bem vindo(a): " + nome)
-    </script>
-
+  
 </head>
 
-<body class =bg >
+<body class = bg >
   <h1 class=formulario>Qual o seu conhecimento sobre Harry Potter </h1>
   <form action="">
 
@@ -27,51 +23,58 @@
     </div>
 
     <div class="perguntas">
-       <h2>Quem foi o culpado de fazer a cicatriz ao Harry:</h2> 
-       <img class="cicatriz" src="./estilos/cicatriz.jpg" alt="marca">
+      <h2>Quem foi o culpado de fazer a cicatriz ao Harry:</h2>
+      <img class="cicatriz" src="./estilos/cicatriz.jpg" alt="marca">
       <ul>
-        <input type="radio" name="Lord Voldemort">Lord Voldemort
-        <input type="radio" name="Lucius Malfoy">Lucius Malfoy
-        <input type="radio" name="Bellatrix Lestrange">Bellatrix Lestrange
+
+          <input type="radio" name="opcao"  value="Lord Voldemort">Lord Voldemort
+          <input type="radio" name="opcao"  value="Lucius Malfoy">Lucius Malfoy
+          <input type="radio" name="opcao"  value="Bellatrix Lestrange">Bellatrix Lestrange
       </ul>
-    </div>
+      <button type="reset" id="verificarResposta">Verificar Resposta</button>
+      <p id="mensagem"></p>
+  </div>
     <div class="perguntas">
       <h2>Harry julgava que não tinha dinheiro nenhum até ter ido ver a herança que os pais tinham deixado, qual era o nome do banco onde ele foi buscar o seu dinheiro:</h2>
       <img class="gringotts" src="./estilos/gringots.jpg" alt="banco">
       <ul>
-        <input type="radio" name="Hogwarts"> Hogwarts
-        <input type="radio" name="Gringotts"> Gringotts
-        <input type="radio" name="Caldeirão Furado"> Caldeirão Furado
+        <input type="radio" name="opcao1" value="Hogwarts"> Hogwarts
+        <input type="radio" name="opcao1" value="Gringotts"> Gringotts
+        <input type="radio" name="opcao1" value="Caldeirão Furado">Caldeirão Furado
       </ul>
+      <button type="reset" id="verificarResposta_a">Verificar Resposta</button>
+      <p id="mensagem_a"></p>
     </div>
     <div class="perguntas">
       <h2>Harry e Hagrid foram a um cofre buscar um saco pequeno e sujo, qual era o número do cofre:</h2>
       <img class="pedra_roubo" src="./estilos/pedra_roubo.jpg" alt="saco_roubado">
       <ul>
-       <input type="radio" name="723"> 723
-        <input type="radio" name="713"> 713
-        <input type="radio" name="703" >703
+       <input type="radio" name="opcao2" value ="723"> 723
+        <input type="radio" name="opcao2" value ="713"> 713
+        <input type="radio" name="opcao2" value ="703" > 703
       </ul>
     </div>
     <div class="perguntas">
       <h2>Do que é que Voldemort se alimentava para não morrer:</h2>
       <img class="voldemort" src="./estilos/voldemort.jpg" alt="voldemort_sangue">
       <ul>
-        <input type="radio" name="Sangue de centauro">Sangue de centauro 
-        <input type="radio" name="Sangue de unicórnio ">Sangue de unicórnio 
-        <input type="radio" name="Sangue gigantes ">Sangue gigantes
+        <input type="radio" name="opcao3" value="Sangue de centauro"> Sangue de centauro 
+        <input type="radio" name="opcao3" value="Sangue de unicórnio"> Sangue de unicórnio 
+        <input type="radio" name="opcao3" value="Sangue gigantes"> Sangue gigantes
+      </ul> 
     </div>
     <div class="perguntas">
       <h2>Quem é que disse a Harry como é que se ia para a plataforma nove e três quartos:</h2>
       <img class="plataforma" src="./estilos/plataforma.jpg" alt="plataforma">
       <ul>
-        <input type="radio" name="Fred Weasley">Fred Weasley
-        <input type="radio" name="Moly Weasley">Moly Weasley 
-        <input type="radio" name="Hagrid">Hagrid
+        <input type="radio" name="opcao4" value="Fred Weasley">Fred Weasley
+        <input type="radio" name="opcao4" value="Moly Weasley">Moly Weasley 
+        <input type="radio" name="opcao4" value="Hagrid">Hagrid
       </ul>
     </div>
   </form>
 
+  <script src="./script.js"></script>
 </body>
 
 </html>
